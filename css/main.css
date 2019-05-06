@@ -1,0 +1,33 @@
+.bolha {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: absolute;
+}
+.placar {
+    width: 150px;
+    height: 100px;
+    position: fixed;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 5px grey;
+}
+#placar {
+    font-size: 50px;
+    color: rgb(1, 255, 1);
+}
+.comecar {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 1px 1px rgb(212, 212, 212);
+    cursor: pointer;
+}

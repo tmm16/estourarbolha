@@ -4,19 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Estoura Bolhas</title>
-        <script type="text/javascript" src="script.js"></script>
-        <style rel="stylesheet" type="text/css">
-        /*Classe CSS que define como será a bolha*/
-        .bolha {
-            width: 50px;
-            height: 50px;
-            border-radius: 25px;
-            border: 1px solid black;
-            position: absolute;
-        }
-        </style>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
     </head>
-    <!--Ao carregar a página, o sistema irá gerar uma bolha.-->
-    <body onload="iniciar()">
+    <body>
+        <div class="placar">
+            <span id="placar">0</span><br/>
+            <input type="button" class="comecar" id="comecar" value="Começar o jogo!" />
+        </div>
     </body>
 </html>
